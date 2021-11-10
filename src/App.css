@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "RocknRoll One", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    190deg,
+    rgb(134, 123, 205) 0%,
+    rgb(106, 90, 171) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #222;
+  /* overflow: hidden; */
+}
+.Heading {
+  text-align: center;
+  text-shadow: 0px 2px 10px #040607, 3px -1px 5px #271c6c;
+
+  margin-top: 20px;
+  margin-left: 495px;
+  background-color: rgba(0, 0, 0, 0.308);
+  width: 350px;
+
+  /* display: inline; */
+ margin-bottom: 2rem;
+  color: #43cfcf;
+}
+
+.addTodos {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input {
+  min-width: 15rem;
+  width: 40vw;
+  box-shadow:4px 6px 10px #00010c;
+  font-size: large;
+  font-weight: bold;
+
+  max-height: 2.5rem;
+  background-color: #e1ebfd;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 4rem;
+
+  align-self: center;
+}
+
+.todo-input:focus {
+  outline: none;
+  border: 2px solid rgb(1, 0, 10);
+}
+
+.add-btn {
+  margin-left: 1rem;
+  background-color: #71e959e7;
+  color: #000307;
+  border-radius: 50%;
+  border: 2px solid #e1ebfd;
+  font-size: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 4px 6px 10px #00010c;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-btn:hover{
+  background-color:rgb(59, 59, 202);
+}
+.DisplayTodos {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+   margin-bottom: 2rem;
+  /* display: flex;
+  justify-items: center; */
+  align-items: center;
+}
+
+.DisplayTodos .buttons button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  margin: 12px;
+  font-weight: bold;
+  box-shadow: 4px 6px 10px #00010c;
+  }
+
+.DisplayTodos .buttons button:focus {
+  outline: none;
+}
+.displaytodos .buttons button:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.DisplayTodos ul {
+  list-style: none;
+  display: flex;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  padding: 50px;
+}
+
+.completed {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+  background-color: #867bcd;
+  border: 2px solid #272727;
+  color: #e1ebfd;
+
+  font-size: 0.8rem;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+}
+.textarea{
+  padding: 40px;
+  background-color:rgb(84, 188, 236) ;
+  color: #00010c;
+  font-weight: bold;
+  /* margin: 12px; */
+
+  
+}
+
+.Login{
+  width: 400px;
+  margin-left: 50px;
+}
+.Label{
+  color: rgb(12, 13, 14);
+  font-weight: bold;
+  font-size: larger;
+  
+}
+.btns{
+  background-color: #00010c38;
+}
+.Edit{
+ 
+  background-color: #e8f165f3;
+  color: #00010c;
+  padding: 3px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.Completed{
+ 
+  background-color: #4df547f3;
+  color: #00010c;
+  font-weight: bold;
+  margin-left: 26px;
+}
+.Delete{
+ 
+  background-color: #f5475ff3;
+  color: #00010c;
+  font-weight: bold;
+  margin-left: 26px;
+}
+.card{
+  margin: 8px;
+}
+.todolist{
+  margin-left: 12px;
+}
+.navbar{
+  background-color:#0003087e;
+  font-weight: bold;
+  font-size: large;
+
+
+}
+.brand{
+  font-size:larger  ;
+  color: #43cfcf;
+}
+.Navbar.Brand{
+  
+  font-size:larger
+}
